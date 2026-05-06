@@ -1,0 +1,29 @@
+[book]
+title = "Swift语言核心"
+authors = ["Swift语言核心团队"]
+description = "一本系统深入讲解 Swift 语言核心特性的技术书籍，涵盖类型系统、协议导向编程、值类型、并发模型等核心主题。"
+language = "zh-CN"
+
+[rust]
+edition = "2021"
+
+[output.html]
+default-theme = "ayu"
+preferred-dark-theme = "ayu"
+no-section-label = false
+
+[output.html.search]
+limit-results = 30
+teaser-word-count = 30
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 1
+boost-paragraph = 1
+expand = true
+
+[output.html.playground]
+runnable = false
+
+[preprocessor.links]
+
+[preprocessor.index]
